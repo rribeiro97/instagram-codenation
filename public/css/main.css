@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Montserrat,sans-serif;
+	font-size: 18px;
+	background-color: #FAFAFA;
+}
+ul li a {
+	color:inherit;
+	text-decoration: none;
+}
+li {
+	list-style-type: none;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+}
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+.header {
+	background-color: white;
+	border-bottom: 2px solid #dbdbdb;
+	
+}
+.header__itens {
+	justify-content: space-between;
+	margin: 0 auto;
+	padding: 10px 15px 5px;
+}
+
+.header__logo {
+	max-width: 7.5rem;
+	width: 100%;
+}
+.header__plane {
+	font-size: 1.5rem;
+}
+
+.stories {
+	margin: 2px auto 10px;
+	background-color:white;
+	padding: 5px;
+	border: 1px solid #dbdbdb;
+}
+
+.stories__block {
+
+}
+.stories__ul {
+	padding: 0 10px;
+}
+.stories-li-img {
+	margin: 0 12px;
+}
+.stories__thumb {
+	width:66px;
+	border-radius: 100%;
+	
+}
+.stories__thumb__active {
+	border: 2px solid deeppink;
+}
+
+.post-cards {
+ margin:10px auto;
+ border: 1px solid #dbdbdb;
+ background-color: white;
+}
+.card__header {
+	justify-content: space-between;
+	padding:10px;
+	background-color: white;
+}
+.card__userdetails {
+	align-items: center;
+	
+}
+.card__profile__details {
+	display: flex;
+	flex-direction: column;
+	font-size: 12px;
+	font-weight: bolder;
+
+}
+.card__profile__name {
+	
+	
+}
+.card__profile__location {
+	font-weight: normal;
+}
+.card__profile__image {
+	width: 45px;
+	border-radius:100% ;
+	margin-right: 10px;
+}
+
+.card__image {
+	width:100%
+}
+.card__footer {
+	
+}
+.card__footer__iconarea {
+	justify-content: space-between;
+	font-size: 20px;
+	padding:10px 15px;
+}
+.card_footer_iconarea_interact i{
+	margin-right:5px;
+}
+.card__footer__usersinteraction {
+	background-color:#65656526;
+	font-size:13px;
+	margin: 5px auto 0;
+	padding: 10px;
+}
+.card__footer__usersinteraction__image {
+	width:35px;
+	border-radius: 100%;
+	margin-right: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.post-cards {
+		margin:10px;
+		border-radius: 9px;
+    	overflow: hidden;
+	}
+	
+}
+
+
+
